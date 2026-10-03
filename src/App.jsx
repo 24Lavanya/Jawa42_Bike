@@ -2,13 +2,13 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import Scene, { state } from "./Scene";
-import Footer from "./Footer";
-import Road from "./Road";
-import FeatureSection from "./FeatureSection";
-import LandingSection from "./LandingSection";
-import Nav from "./Nav";
-import Loader from "./Loader";
+import Scene, { state } from "./Components/Scene";
+import Footer from "./Components/Footer";
+import Road from "./Components/Road";
+import FeatureSection from "./Components/FeatureSection";
+import LandingSection from "./Components/LandingSection";
+import Nav from "./Components/Nav";
+import Loader from "./Components/Loader";
 
 gsap.registerPlugin(ScrollTrigger);
 

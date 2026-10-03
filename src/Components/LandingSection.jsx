@@ -1,4 +1,4 @@
-import landingImg from './assets/landing-image.jpg'
+import landingImg from '../assets/landing-image.jpg'
 
 const LandingSection = () => (
   <section className="relative h-dvh overflow-hidden">

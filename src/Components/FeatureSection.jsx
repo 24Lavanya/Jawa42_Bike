@@ -1,4 +1,4 @@
-import { FEATURES } from './utils/data'
+import { FEATURES } from '../utils/data'
 
 const FeatureSection = () => (
   <section id="features" className="relative h-[500vh] bg-white">

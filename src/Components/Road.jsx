@@ -1,5 +1,5 @@
-import { BEATS } from './utils/data'
-import { Layer } from './utils/helpers'
+import { BEATS } from '../utils/data'
+import { Layer } from '../utils/helpers'
 
 const Road = () => (
   <section id="ride" className="relative h-[400vh]">
